@@ -11,7 +11,7 @@ window.onload = function() {
 };
 
 const biciSonido = new Howl({
-  src: ["Reto/anim/Sonido/Sonido de Bicicleta Pedalenado.mp3"], 
+  src: ["Reto/anim/Sonido/sonidobici.mp3"], 
   volume: 0.5
 });
 
