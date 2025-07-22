@@ -1,0 +1,25 @@
+body {
+  background: grey;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  background: blue;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+p {
+  font-size: 1.1em;
+  color: black;
+} 
