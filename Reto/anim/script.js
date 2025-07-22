@@ -16,7 +16,7 @@ window.onload = function() {
 };
 
 const biciSonido = new Howl({
-  src: ["Sonido/sonidobici.mp3"], // Ruta relativa correcta desde index.html
+  src: ["Sonido/sonidobici.mp3"],
   volume: 0.5
 });
 
