@@ -8,10 +8,15 @@ window.onload = function() {
   tl.to(bici, { x: -200, duration: 2, ease: "power1.inOut" }) 
     .to(bici, { x: 200, duration: 4, ease: "power1.inOut" })  
     .to(bici, { x: -200, duration: 4, ease: "power1.inOut" }); 
+
+  // Botón para reproducir sonido
+  document.getElementById("btn-sonido").addEventListener("click", function() {
+    biciSonido.play();
+  });
 };
 
 const biciSonido = new Howl({
-  src: ["Reto/anim/Sonido/sonidobici.mp3"], 
+  src: ["Sonido/sonidobici.mp3"], // Ruta relativa correcta desde index.html
   volume: 0.5
 });
 
